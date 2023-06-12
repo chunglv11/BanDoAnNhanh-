@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+    <title></title>
+</head>
+
+<body style="overflow-y: hidden;">
+
+
+    <div class="container-fluid p-0 bg-success" style="height: 100vh;min-width: 1000px">
+        <div class="container-fluid bg-success" id="loginaccount" style="padding: 100px;padding-top: 70px">
+            <div class="row mt-3 p-5">
+                <div class="col-sm-12 col-md-7">
+                    <p class="text-white pl-3" style="font-size: 2rem;font-weight: bold;">ĐIỂM BÁN HÀNG</p>
+                    <p class="text-white pl-3" style="font-size: 1.5rem;font-weight: bold;">Phần mềm quản lý bán hàng</p>
+                    <div class="icon ml-3 float-left " style="width: 50px;height: 50px;"><img src="~/image/icons8-double-tick-64.png" width="70%"></div>
+                    <div class="text ml-3 " style="width: 80%;height: 50px;padding: 0.05rem;">
+                        <p class="text-white" style="font-size: 1.3rem">Quản lý giỏ hàng</p>
+                    </div>
+                    <div class="icon ml-3 float-left  " style="width: 50px;height: 50px;"><img src="~/image/icons8-double-tick-64.png" width="70%"></div>
+                    <div class="text ml-3 " style="width: 80%;height: 50px;padding: 0.05rem;">
+                        <p class="text-white" style="font-size: 1.3rem">Thanh toán và in hóa đơn</p>
+                    </div>
+                    <div class="icon ml-3 float-left " style="width: 50px;height: 50px;"><img src="~/image/icons8-double-tick-64.png" width="70%"></div>
+                    <div class="text ml-3 " style="width: 80%;height: 50px;padding: 0.05rem;">
+                        <p class="text-white" style="font-size: 1.3rem">Quản lý khách hàng</p>
+                    </div>
+                    <div class="icon ml-3 float-left " style="width: 50px;height: 50px;"><img src="~/image/icons8-double-tick-64.png" width="70%"></div>
+                    <div class="text ml-3 " style="width: 80%;height: 50px;padding: 0.05rem;">
+                        <p class="text-white" style="font-size: 1.3rem">Quản lý sản phẩm</p>
+                    </div>
+                    <div class="icon ml-3 float-left " style="width: 50px;height: 50px;"><img src="~/image/icons8-double-tick-64.png" width="70%"></div>
+                    <div class="text ml-3 " style="width: 80%;height: 50px;padding: 0.05rem;">
+                        <p class="text-white" style="font-size: 1.3rem">Quản lý đơn mua</p>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-5 rounded shadow-sm bg-white" style="height: 350px ">
+                    <p class="text-success mt-4 ml-3" style="font-weight: bold;font-size: 1.3rem;">ĐĂNG NHẬP</p>
+                    <form class="col-12 pb-3 " action="Login" method="post">
+                        <div class="form-group">
+                            <label class="text-dark">Tên đăng nhập</label>
+                            <input type="text" name="username" class="form-control" placeholder="giamdoc" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="text-dark">Mật khẩu</label>
+                            <input type="password" name="password" class="form-control" placeholder="giamdoc" required>
+                        </div>
+                        <button id="login" type="submit" class="btn btn-success btn-block mt-1 mb-5 " style="width: 80%;margin:0 auto;">Đăng nhập</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
